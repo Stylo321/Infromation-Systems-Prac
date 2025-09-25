@@ -1,0 +1,45 @@
+create schema ST10442843 ;
+use ST10442843;
+
+-- to enable updates and data deletion
+SET SQL_SAFE_UPDATES = 0;
+
+-- Q.3.1 
+
+CREATE table Author (
+AuthorID INT,
+AuthorName VARCHAR(50),
+AuthorEMail VARCHAR(100)
+)
+
+select * from Author;
+
+
+-- Q.3.2 
+
+CREATE table FictionBook (
+BookID INT,
+BookTitle VARCHAR(500),
+AuthorID INT,
+PublicationDate DATE
+)
+
+select * from fictionbook;
+
+
+
+-- Q.3.3
+ 
+Insert into author 
+values (1, "Thabo Bless", "thabo@yahoo.com");
+
+select*from author;
+
+
+
+-- Insert FictionBook
+ 
+Insert into FictionBook
+values (1, "Into The Darkness", 1, "2025-02-14");
+
+select*from FictionBook;
