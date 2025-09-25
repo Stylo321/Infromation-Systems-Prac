@@ -8,6 +8,4 @@ erd
 Dpendancy diagram
 
 
-<img width="734" height="885" alt="Screenshot 2025-09-25 143627" src="https://github.com/user-attachments/assets/2ac8a7d6-6df9-435a-8403-2f28eba94b54" />
-
-
+<img width="1018" height="893" alt="image" src="https://github.com/user-attachments/assets/224d98ff-76e0-416f-a0c3-4bdaaf4d7812" />
